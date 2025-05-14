@@ -6,14 +6,14 @@ import zhCn from "element-plus/es/locale/lang/zh-cn" // Element Plus 中文包
 
 </script>
 <template>
-  <header>
+  <!-- <header>
     <Header></Header>
-  </header>
+  </header> -->
   <el-config-provider :locale="zhCn">
     <RouterView />
   </el-config-provider>
-  <footer>
+  <!-- <footer>
     <Footer></Footer>
-  </footer>
+  </footer> -->
 </template>
 <style scoped></style>
